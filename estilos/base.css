@@ -1,0 +1,259 @@
+:root {
+    --azul-escuro: #173f5f;
+    --azul: #20639b;
+    --fundo: #f4f6f8;
+    --branco: #ffffff;
+    --texto: #222222;
+    --borda: #b8c2cc;
+}
+
+
+/* Configurações gerais */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    color: var(--texto);
+    background-color: var(--fundo);
+    line-height: 1.6;
+}
+
+
+/* Cabeçalho */
+
+header {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+}
+
+#titulo-curso {
+    display: block;
+    text-align: center;
+    padding: 18px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+
+/* Menu */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525;
+}
+
+nav a {
+    color: var(--branco);
+    text-decoration: none;
+    padding: 14px 35px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+    background-color: var(--azul);
+}
+
+nav a:focus {
+    outline: 3px solid #ffd166;
+    outline-offset: -3px;
+}
+
+
+/* Conteúdo principal */
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 35px 25px 45px;
+}
+
+h1 {
+    text-align: center;
+    color: var(--azul-escuro);
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+
+
+/* Grid dos cartões */
+
+.cards {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+
+/* Cartões */
+
+.card {
+    background-color: var(--branco);
+    border: 1px solid var(--borda);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card h2 {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    text-align: center;
+    padding: 12px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 1.1rem;
+}
+
+.card h3 {
+    color: var(--azul-escuro);
+    text-align: center;
+    font-family: "Montserrat", Arial, sans-serif;
+    margin: 20px 30px 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--borda);
+}
+
+
+/* Sobre mim */
+
+.sobre-mim {
+    display: flex;
+    gap: 25px;
+    padding: 25px 30px 10px;
+    align-items: flex-start;
+}
+
+.texto-sobre {
+    flex: 1;
+}
+
+.texto-sobre p {
+    margin-bottom: 15px;
+}
+
+.foto-perfil {
+    width: 155px;
+    height: 180px;
+    object-fit: cover;
+    border: 1px solid var(--borda);
+}
+
+
+/* Localização */
+
+.localizacao {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding: 10px 30px 30px;
+}
+
+.localizacao figure {
+    width: 145px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.localizacao figure img {
+    display: block;
+    width: 145px;
+    height: 95px;
+    object-fit: cover;
+    border: 1px solid var(--borda);
+}
+
+.localizacao figcaption {
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-top: 6px;
+}
+
+.localizacao p {
+    flex: 1;
+}
+
+
+/* Recursos */
+
+.recursos {
+    padding: 45px 35px;
+}
+
+.recursos ul {
+    padding-left: 25px;
+}
+
+.recursos li {
+    margin-bottom: 10px;
+}
+
+.recursos a {
+    color: #0645ad;
+}
+
+.recursos a:hover {
+    color: var(--azul);
+}
+
+
+/* Rodapé */
+
+footer {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    text-align: center;
+    padding: 18px 20px;
+}
+
+footer p:first-child {
+    margin-bottom: 5px;
+}
+
+#ultimaModificacao {
+    color: #ffd166;
+    font-size: 0.9rem;
+}
+
+
+/* Responsividade */
+
+@media (max-width: 750px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .sobre-mim {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto-sobre {
+        width: 100%;
+    }
+
+    .localizacao {
+        flex-direction: column;
+    }
+
+    .localizacao p {
+        width: 100%;
+    }
+}
