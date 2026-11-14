@@ -98,10 +98,18 @@ h2 {
 
 /* Celular: mostra SVG */
 
+.icone-clima {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    margin-left: 0.25rem;
+}
+
 .icone-clima img {
+    display: block;
     width: 25px;
     height: 25px;
-    vertical-align: middle;
+    object-fit: contain;
 }
 
 .emoji-clima {
