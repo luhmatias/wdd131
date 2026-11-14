@@ -1,4 +1,3 @@
-javascript
 const temperatura = -5;
 const velocidadeVento = 10;
 
