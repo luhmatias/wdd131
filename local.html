@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informações sobre o Canadá, incluindo dados do país e informações sobre o clima.">
+    <meta name="author" content="Lu">
+    <title>Canadá | WDD 131</title>
 
+    <link rel="stylesheet" href="estilos/local.css">
+    <script src="scripts/local.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Canadá</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source media="(min-width: 700px)" srcset="imagens/canada-wide.webp">
+                <img src="imagens/canada-small.webp" alt="Paisagem do Canadá">
+            </picture>
+        </section>
+
+        <section class="informacoes">
+            <h2>Canadá</h2>
+            <div class="dados">
+                <p><strong>Capital:</strong> Ottawa</p>
+                <p><strong>Área:</strong> 9.984.670 km²</p>
+                <p><strong>População:</strong> aproximadamente 41 milhões</p>
+                <p><strong>Moeda:</strong> Dólar canadense</p>
+                <p><strong>Idiomas:</strong> Inglês e francês</p>
+            </div>
+        </section>
+
+        <section class="clima">
+            <h2>Clima</h2>
+            <div class="clima-dados">
+                <p><strong>Temperatura:</strong> <span id="temperatura">-5 °C</span></p>
+                <p><strong>Condição:</strong> Parcialmente nublado</p>
+                <p><strong>Vento:</strong> <span id="vento">10 km/h</span></p>
+                <p><strong>Sensação térmica:</strong> <span id="sensacao">N/A</span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="ano"></span> Canadá | WDD 131</p>
+        <p>Última modificação: <span id="ultima-modificacao"></span></p>
+    </footer>
+</body>
+</html>
