@@ -1,0 +1,21 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+
+    <!-- Sol -->
+    <circle cx="43" cy="19" r="11" fill="#ffb703"></circle>
+
+    <!-- Raios do sol -->
+    <g stroke="#ffb703" stroke-width="3" stroke-linecap="round">
+        <line x1="43" y1="2" x2="43" y2="5"></line>
+        <line x1="43" y1="33" x2="43" y2="36"></line>
+        <line x1="26" y1="19" x2="29" y2="19"></line>
+        <line x1="57" y1="19" x2="60" y2="19"></line>
+    </g>
+
+    <!-- Nuvem -->
+    <path d="M15 49
+             C5 49 5 35 16 33
+             C19 22 36 22 40 33
+             C54 30 60 49 46 49 Z" fill="#ffffff" stroke="#555555" stroke-width="2.5"></path>
+
+</svg>
