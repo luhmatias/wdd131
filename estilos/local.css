@@ -33,11 +33,19 @@ main {
     margin: 0 auto;
 }
 
+/* Imagem principal */
+
+.hero {
+    width: 100%;
+}
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
+
+/* Informações do Canadá */
 
 .informacoes,
 .clima {
@@ -56,6 +64,8 @@ h2 {
     margin: 0.7rem 0;
 }
 
+/* Rodapé */
+
 footer {
     background-color: var(--vermelho-canada);
     color: var(--branco);
@@ -68,13 +78,18 @@ footer p {
     margin: 0.3rem;
 }
 
-/* Ícone do clima na visualização ampla */
+/* Ícone do clima */
+
 .clima h2::after {
     content: " ⛅";
 }
 
-/* Visualização para telas maiores */
+/* ----------------------------- */
+/* Visualização para telas grandes */
+/* ----------------------------- */
+
 @media screen and (min-width: 700px) {
+
     header {
         padding: 1.5rem;
     }
@@ -92,22 +107,20 @@ footer p {
         object-fit: cover;
     }
 
-    .informacoes,
-    .clima {
-        width: 350px;
-        margin: 0;
-    }
-
     .informacoes {
-        position: absolute;
-        top: 250px;
-        left: 10%;
+        position: relative;
+        width: 40%;
+        margin-top: -120px;
+        margin-left: 5%;
+        margin-right: auto;
     }
 
     .clima {
-        position: absolute;
-        top: 500px;
-        right: 10%;
+        position: relative;
+        width: 40%;
+        margin-top: -150px;
+        margin-left: auto;
+        margin-right: 5%;
     }
 
     footer {
