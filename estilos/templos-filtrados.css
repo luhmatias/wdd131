@@ -11,7 +11,6 @@ body {
 
 header {
     background-color: #263238;
-    color: white;
 }
 
 .cabecalho {
@@ -86,7 +85,8 @@ figure {
 figure img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 150px;
+    object-fit: cover;
     border-radius: 5px;
 }
 
