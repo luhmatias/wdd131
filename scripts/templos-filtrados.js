@@ -189,4 +189,4 @@ document.querySelector("#currentyear").textContent = currentYear;
 const lastModified = document.lastModified;
 document.querySelector("#lastModified").textContent = lastModified;
 
-mostrarTemplos(templos); 
+mostrarTemplos(templos);
