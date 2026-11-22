@@ -61,7 +61,7 @@ const templos = [
         consagracao: "1978, 30 de outubro",
         area: 59246,
         urlDaImagem:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/sao-paulo-brazil/400x250/sao-paulo-brazil-temple-lds-37805-wallpaper.jpg"
+            "https://www.churchofjesuschrist.org/imgs/e2ed87c928912468fe3882ef21c7851b6b9bb0ac/full/800%2C/0/default"
     },
     {
         nomeDoTemplo: "Recife Brasil",
@@ -69,7 +69,7 @@ const templos = [
         consagracao: "2000, 15 de dezembro",
         area: 16500,
         urlDaImagem:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/recife-brazil/400x250/recife-brazil-temple-lds-260271-wallpaper.jpg"
+            "https://www.churchofjesuschrist.org/imgs/8e1a7696c0373102e6f8d174b84356cba5147afc/full/800%2C/0/default"
     },
     {
         nomeDoTemplo: "Roma Itália",
@@ -77,7 +77,7 @@ const templos = [
         consagracao: "2019, 10 de março",
         area: 41010,
         urlDaImagem:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rome-italy/400x250/rome-italy-temple-lds-2035302-wallpaper.jpg"
+            "https://www.churchofjesuschrist.org/imgs/918b10c2dcb6f84bf96088f039a65ef0cb3cf2d0/full/800%2C/0/default"
     }
 ];
 
@@ -189,4 +189,4 @@ document.querySelector("#currentyear").textContent = currentYear;
 const lastModified = document.lastModified;
 document.querySelector("#lastModified").textContent = lastModified;
 
-mostrarTemplos(templos);
+mostrarTemplos(templos); 
