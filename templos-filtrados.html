@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Álbum de imagens de templos de A Igreja de Jesus Cristo dos Santos dos Últimos Dias.">
+    <meta name="author" content="Lu Matias">
+    <title>Álbum do Templo</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos/templos-filtrados.css">
+    <link rel="stylesheet" href="estilos/templos-filtrados-grandes.css">
+
+    <script src="scripts/templos-filtrados.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <span>Álbum do Templo</span>
+
+            <button id="menu-button" aria-label="Abrir menu">☰</button>
+        </div>
+
+        <nav id="menu">
+            <a href="#" id="home">Página Inicial</a>
+            <a href="#" id="antigo">Antigo</a>
+            <a href="#" id="novo">Novo</a>
+            <a href="#" id="grande">Grande</a>
+            <a href="#" id="pequeno">Pequeno</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Álbum do Templo</h1>
+
+        <div class="album" id="album"></div>
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> Luciane Zuse Matias</p>
+        <p>Última modificação: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
