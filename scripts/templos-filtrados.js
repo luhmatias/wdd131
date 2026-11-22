@@ -60,24 +60,21 @@ const templos = [
         localizacao: "São Paulo, Brasil",
         consagracao: "1978, 30 de outubro",
         area: 59246,
-        urlDaImagem:
-            "https://www.churchofjesuschrist.org/imgs/e2ed87c928912468fe3882ef21c7851b6b9bb0ac/full/800%2C/0/default"
+        urlDaImagem: "imagens/sao-paulo.jpg"
     },
     {
         nomeDoTemplo: "Recife Brasil",
         localizacao: "Recife, Brasil",
         consagracao: "2000, 15 de dezembro",
         area: 16500,
-        urlDaImagem:
-            "https://www.churchofjesuschrist.org/imgs/8e1a7696c0373102e6f8d174b84356cba5147afc/full/800%2C/0/default"
+        urlDaImagem: "imagens/recife.jpg"
     },
     {
         nomeDoTemplo: "Roma Itália",
         localizacao: "Roma, Itália",
         consagracao: "2019, 10 de março",
         area: 41010,
-        urlDaImagem:
-            "https://www.churchofjesuschrist.org/imgs/918b10c2dcb6f84bf96088f039a65ef0cb3cf2d0/full/800%2C/0/default"
+        urlDaImagem: "imagens/roma.jpg"
     }
 ];
 
